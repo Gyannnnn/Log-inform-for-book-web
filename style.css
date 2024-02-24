@@ -9,7 +9,7 @@
 
 }
 html,body{
-    background-color: #1abc9c;
+    background-color: red;
 }
 .main{
     height: 100vh;
@@ -23,23 +23,32 @@ html,body{
     justify-content: center;
     align-items: center;
 }
+.head{
+    color: red;
+    font-size: 2vw;
+}
 .main .forms{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 19px;
+    gap: 10px;
 }
 .forms{
     border: 2px solid white;
     border-radius: 20px;
     padding: 50px 90px ;
-    background-color: #2980b9;
+    background-color: #ffff;
     box-shadow: 0 0 5px white,0 0 10px white, 0 0 20px white, 0 0 100px white;
 } 
 
 .forms .input{
     box-shadow: 0 0 10px white;
+}
+.bb{
+    padding: .5vw 3vw;
+    border: 1px solid red;
+    border-radius: 25px;
 }
 .forms .xyz{
     background-color: white;
